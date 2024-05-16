@@ -1,0 +1,118 @@
+
+/* CSS RESET */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+/* Styles */
+.app {
+    position: relative;
+}
+
+.color-bg {
+    background-color: #24053E;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.611rem 10.334rem 0.4rem;
+    font-family: "Manrope", sans-serif;
+}
+.header.__logo {
+
+}
+
+.header__link {
+    color: #FFF;
+    font-size: 1.125rem;
+    /* text-decoration: underline; */
+    /* text-decoration-color:#44FFA1; */
+    border-bottom: 3px solid #44FFA1;
+
+}
+
+.main {
+    width: 100%;
+    height: 36.625rem;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+    align-items: center;
+    position: relative;
+}
+
+.main::after {
+    content: "";
+    position: absolute;
+    bottom: -60px;
+    left: -5%;
+    right: 0;
+    display: block;
+    width: 105%;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #24053e;
+}
+
+.main__contents {
+    margin-top: 3.625rem;
+    color: #FFF;
+    width: 39.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__text {
+    font-family: "Fraunces", serif;
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 5rem;
+}
+.underlined {
+    border-bottom: 3px solid #44FFA1;
+}
+.main__btn {
+    background-color: #44FFA1;
+    padding: 1rem 2rem;
+    font-family: "Manrope", sans-serif;
+    font-size: 1.125rem;
+    margin-top: 2.313rem;
+    font-weight: 700;
+    color: #24053E;
+}
+
+
+
+.pattern1 {
+    position: absolute;
+    top: 0;
+    left: -9px;
+    width: 16.893rem;
+    height: 13.444rem;
+    object-fit: cover;
+}
+
+.pattern2 {
+    position: absolute;
+    top: 80px;
+    right: -9px;
+    
+}
+
+.phone {
+    
+}
+
+.ads {
+    background-color: #FFF;
+    width: 100%;
+}
